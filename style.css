@@ -1,0 +1,35 @@
+.nn, .nnp, .nnps, .nns {
+  color: #CC0000;
+}
+
+.wp, .wps, .prp, .pos, .prps, {
+  color: #CC0000
+}
+
+.nnp {
+  color: #FF0000;
+}
+
+.cd, .jj, .jjr, .jjs, .pdt {
+  color: #FF9900;
+}
+
+.vb, .vbd, .vbg, .vbn, .vbp, .vbz {
+  color: #33CC33;
+}
+
+.to, .in {
+  color: #6666FF;
+}
+
+.uh {
+  color: #FF0066
+}
+
+.rp, .rbs, .rbr, .rb, .wrb {
+  color: #E6B800
+}
+
+.ls, .cc, .det {
+  color: #757575;
+}

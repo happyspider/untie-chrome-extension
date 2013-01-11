@@ -1,0 +1,20 @@
+{
+  "name": "Untie",
+  "version": "1.0",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "http://*/*"
+  ],
+  "browser_action": {
+    "name": "Untie",
+    "icons": ["icon.png"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["style.css"],
+      "js": ["jquery-1.8.3.min.js", "lexicon.js_", "lexer.js", "POSTagger.js", "content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
